@@ -16,7 +16,6 @@
       "run": "[ $(cat .github/steps/-step.txt) -ge 2 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
-      "comparison": "included",
       "timeout": 10,
       "points": 1
     },
@@ -26,7 +25,6 @@
       "run": "[ $(cat .github/steps/-step.txt) -ge 3 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
-      "comparison": "included",
       "timeout": 10,
       "points": 1
     },
@@ -36,7 +34,6 @@
       "run": "[ $(cat .github/steps/-step.txt) -ge 4 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
-      "comparison": "included",
       "timeout": 10,
       "points": 1
     }
